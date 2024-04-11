@@ -1,0 +1,105 @@
+.feedback__form {
+    background-color: #FF8340;
+
+    .feedback__line {
+        margin: 0 auto 50px auto;
+
+        width: 64px;
+        height: 6px;
+        background-color: #000;
+    }
+
+    .feedback__title-text {
+        text-align: center;
+        color: #292929;
+        font-family: Arial;
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 160px;
+        /* 355.556% */
+        letter-spacing: 2.25px;
+
+        @media screen and (max-width: 952px) {
+            font-size: 32px;
+        }
+    }
+
+    .feedback__description-text {
+        color: #000;
+        font-family: Roboto, sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 2px;
+
+        @media screen and (max-width: 952px) {
+            max-width: 888px;
+            margin-left: 32px;
+        }
+    }
+}
+
+.feedback__forms {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px 0;
+    margin-top: 40px;
+
+    @media screen and (max-width: 952px) {
+        margin: 24px;
+    }
+
+    .feedback__select {
+        color: #FFFFFF;
+        appearance: none;
+        background: url('../img/Line\ 2.svg') no-repeat right;
+        background-color: #292929;
+    }
+
+    .feedback__item {
+        font-family: Roboto, sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 2px;
+        width: 49%;
+        padding: 18px 0 18px 34px;
+    }
+
+    .feedback__massage {
+        font-family: Roboto, sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 2px;
+        resize: none;
+        padding: 18px 0 18px 34px;
+        width: 100%;
+    }
+}
+
+.feedback__btn {
+    margin: 54px 0 176px 0;
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 2px;
+    border: none;
+    text-transform: uppercase;
+    background-color: #FF8340;
+    margin-left: 82%;
+    cursor: pointer;
+
+    @media screen and (max-width: 952px) {
+        margin-left: 72%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}

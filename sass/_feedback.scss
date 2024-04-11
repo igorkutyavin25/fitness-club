@@ -1,0 +1,36 @@
+.feedback{
+    background-color: #292929;
+}
+
+.feedback__title {
+    padding-top: 124px;
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 160px; /* 200% */
+    letter-spacing: 4px;
+    text-transform: uppercase;
+
+    @media  screen and (max-width:952px) {
+        padding-left: 32px;
+        font-size: 60px; 
+    }
+}
+
+.feedback__description {
+    padding-bottom: 81px;
+    color: #FFF;
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 2px;
+
+    @media  screen and (max-width:952px) {
+        max-width: 888px;
+        padding-left: 32px;
+    }
+}

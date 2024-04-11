@@ -1,0 +1,129 @@
+.main {
+    background-color: #EBEBE9;
+    padding: 20px 0 445px 0;
+
+    @media screen and (max-width: 952px) {
+        background-color: #EBEBE9;
+        padding: 20px 0 198px 0;
+    }
+
+    &__container {
+        position: relative;
+    }
+    &__logo {
+        position: absolute;
+        left: -236px;
+        bottom: -445px;
+        z-index: 1;
+    }
+
+    &__title {
+        position: relative;
+        bottom: -80px;
+        padding-left: 220px;
+        color: #CFCFCD;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 160px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 160px; /* 100% */
+        letter-spacing: 8px;
+        text-transform: uppercase;
+        z-index: 0;
+    }
+
+    &__text {
+        position: absolute;
+        max-width: 587px;
+        left: 732px;
+        bottom: -212px;
+        color: #000;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 2px; 
+    }
+
+    &__btn {
+        position: relative;
+        right: 375px;
+        bottom: -45px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 2px;
+        color: #000;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+
+    &__btn:hover {
+        cursor: pointer;
+        color: #FF8340;
+    }
+    
+    &__btn:visited {
+        text-decoration: none;
+        color: #843500;
+    }
+
+    @media screen and (max-width: 952px) {
+        &__title {
+            position: relative;
+            bottom: -22px;
+            padding-left: 120px;
+            color: #CFCFCD;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 120px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: 160px; /* 100% */
+            letter-spacing: 8px;
+            text-transform: uppercase;
+            z-index: 0;
+        }  
+
+        &__logo {
+            position: absolute;
+            left: -67px;
+            bottom: -198px;
+            z-index: 1;
+            max-width: 624px;
+        }
+
+        &__text {
+            position: absolute;
+            max-width: 363px;
+            left: 559px;
+            bottom: -119px;
+            color: #000;
+            font-family: 'Roboto', sans-serif;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            letter-spacing: 2px; 
+        }
+
+        &__btn {
+            display: block;
+            position: relative;
+            width: 174px;
+            right: -8px;
+            font-family: 'Roboto', sans-serif;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            letter-spacing: 2px;
+            color: #000;
+            text-transform: uppercase;
+            text-decoration: none;
+        }
+    }
+}
+
